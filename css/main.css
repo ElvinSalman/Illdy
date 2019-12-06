@@ -1,0 +1,312 @@
+@import url("/css/media.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-image: url(../img/bg-img1.jpg);
+  background-attachment: fixed;
+  height: 700px;
+}
+
+header .logo {
+  margin-top: 2%;
+}
+
+header .links {
+  margin-top: 3%;
+}
+
+header .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .links ul li {
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+header .links ul li a {
+  text-decoration: none;
+}
+
+header .links ul li a p {
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+header .links ul li a p:hover {
+  color: gold;
+}
+
+header .header-content {
+  margin-top: 15%;
+}
+
+header .header-content .hc-row .hc-1-col {
+  text-align: center;
+}
+
+header .header-content .hc-row .hc-1-col p {
+  color: #fff;
+  line-height: 84px;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+header .header-content .hc-row .hc-1-col p span {
+  color: gold;
+}
+
+header .header-content .hc-row .hc-2-col {
+  margin-top: 1%;
+  text-align: center;
+}
+
+header .header-content .hc-row .hc-2-col p {
+  color: #fff;
+  line-height: 26px;
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+
+header .header-content .hc-row .hc-buttons {
+  text-align: center;
+}
+
+header .header-content .hc-row .hc-buttons button {
+  padding: 7px 60px;
+  border: 3px solid white;
+  border-radius: 3px;
+  height: 70px;
+  width: 250px;
+  margin-right: 1%;
+}
+
+header .header-content .hc-row .hc-buttons button p {
+  color: #fff;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+header .header-content .hc-row .hc-buttons .learn-btn {
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header .header-content .hc-row .hc-buttons .learn-btn:hover {
+  background: none;
+}
+
+header .header-content .hc-row .hc-buttons .btn-2 {
+  background: gold;
+  border: none;
+}
+
+header .header-content .hc-row .hc-buttons .btn-2 p {
+  margin-top: 18px;
+}
+
+header .header-content .hc-row .hc-buttons .btn-2:hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background: indigo;
+}
+
+section {
+  background: #fff;
+  height: 1000px;
+}
+
+section .section {
+  margin-top: 5%;
+}
+
+section .section .sec-row {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+section .section .sec-row p {
+  color: #545454;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+section .section .sec-col-2 {
+  text-align: center;
+}
+
+section .section .sec-col-2 p {
+  line-height: 26px;
+  font-size: 16px;
+  color: #8c9597;
+  font-family: lato;
+  font-weight: 400;
+}
+
+section .section .sec-col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .section .sec-col-3 .first .txt {
+  width: 64px;
+  height: 29px;
+  border-radius: 3px;
+  background: #db312b;
+  margin-left: 52%;
+  text-align: center;
+}
+
+section .section .sec-col-3 .first .txt span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+section .section .sec-col-3 .first .txt-2 {
+  margin-top: 5%;
+  font-size: 16px;
+  cursor: text;
+  color: #db312b;
+  margin-left: 5%;
+}
+
+section .section .sec-col-3 .first .txt-2 i {
+  margin-right: 2%;
+  font-size: 16px;
+}
+
+section .section .sec-col-3 .first .point {
+  height: 9px;
+  width: 9px;
+  background: #db312b;
+  border-radius: 50%;
+  margin-left: 100%;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+}
+
+section .section .sec-col-3 .first .progress-1 {
+  background: #b3adad;
+  height: 4px;
+  border-radius: 20%;
+}
+
+section .section .sec-col-3 .first .progress-1 .pr-1 {
+  background: #db312b;
+  height: 4px;
+  border-radius: 20%;
+}
+
+section .section .sec-col-3 .second .txt {
+  width: 64px;
+  height: 29px;
+  border-radius: 3px;
+  background: #e6e600;
+  margin-left: 73%;
+  text-align: center;
+}
+
+section .section .sec-col-3 .second .txt span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+section .section .sec-col-3 .second .txt-2 {
+  margin-top: 5%;
+  font-size: 16px;
+  cursor: text;
+  color: #e6e600;
+  margin-left: 5%;
+}
+
+section .section .sec-col-3 .second .txt-2 i {
+  margin-right: 2%;
+}
+
+section .section .sec-col-3 .second .point {
+  height: 9px;
+  width: 9px;
+  background: #e6e600;
+  border-radius: 50%;
+  margin-left: 100%;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+}
+
+section .section .sec-col-3 .second .progress-1 {
+  background: #b3adad;
+  height: 4px;
+  border-radius: 20%;
+}
+
+section .section .sec-col-3 .second .progress-1 .pr-1 {
+  background: #e6e600;
+  height: 4px;
+  border-radius: 20%;
+}
+
+section .section .sec-col-3 .third .txt {
+  width: 64px;
+  height: 29px;
+  border-radius: 3px;
+  background: indigo;
+  margin-left: 76%;
+  text-align: center;
+}
+
+section .section .sec-col-3 .third .txt span {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+section .section .sec-col-3 .third .txt-2 {
+  margin-top: 5%;
+  font-size: 16px;
+  cursor: text;
+  color: indigo;
+  margin-left: 5%;
+}
+
+section .section .sec-col-3 .third .txt-2 i {
+  margin-right: 2%;
+  font-size: 16px;
+}
+
+section .section .sec-col-3 .third .point {
+  height: 9px;
+  width: 9px;
+  background: indigo;
+  border-radius: 50%;
+  margin-left: 100%;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%);
+}
+
+section .section .sec-col-3 .third .progress-1 {
+  background: #b3adad;
+  height: 4px;
+  border-radius: 20%;
+}
+
+section .section .sec-col-3 .third .progress-1 .pr-1 {
+  background: indigo;
+  height: 4px;
+  border-radius: 20%;
+}
+/*# sourceMappingURL=main.css.map */

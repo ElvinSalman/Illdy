@@ -1,0 +1,187 @@
+section .form-cont {
+  padding: 0;
+}
+
+section .form-cont .form-head {
+  margin-top: 7%;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+section .form-cont .form-head h2 {
+  color: #545454;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+section .form-cont .address .adr-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .form-cont .address .adr-col p {
+  color: gold;
+  padding: 20px;
+  border-right: 1px solid #cfc4c4;
+}
+
+section .form-cont .address .adr-col span {
+  padding: 20px;
+  color: #8c9597;
+}
+
+section .form-cont .address .support {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .form-cont .address .support p {
+  color: gold;
+  padding: 20px;
+  border-right: 1px solid #cfc4c4;
+}
+
+section .form-cont .address .support span {
+  padding: 20px;
+  color: #8c9597;
+}
+
+section .form-cont .address .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+section .form-cont .address .links .first-a {
+  margin-left: 50%;
+}
+
+section .form-cont .address .links a {
+  margin-right: 10%;
+}
+
+section .form-cont .address .links a i {
+  font-size: 18px;
+  color: grey;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section .form-cont .address .links a i:hover {
+  color: black;
+}
+
+section .form-cont .inputs {
+  margin-top: 6%;
+  height: auto;
+}
+
+section .form-cont .inputs .name {
+  display: block;
+  height: 100px;
+}
+
+section .form-cont .inputs .name p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #8c9597;
+}
+
+section .form-cont .inputs .name input {
+  border: 1px solid #8c9597;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 100%;
+  height: 40px;
+}
+
+section .form-cont .inputs .name input:hover {
+  border: 1px solid #575a5a;
+}
+
+section .form-cont .inputs .mail {
+  display: block;
+  height: 100px;
+}
+
+section .form-cont .inputs .mail p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #8c9597;
+}
+
+section .form-cont .inputs .mail input {
+  border: 1px solid #8c9597;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 100%;
+  height: 40px;
+}
+
+section .form-cont .inputs .mail input:hover {
+  border: 1px solid #575a5a;
+}
+
+section .form-cont .inputs .subject {
+  display: block;
+  height: 100px;
+}
+
+section .form-cont .inputs .subject p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #8c9597;
+}
+
+section .form-cont .inputs .subject input {
+  border: 1px solid #8c9597;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 100%;
+  height: 40px;
+}
+
+section .form-cont .inputs .subject input:hover {
+  border: 1px solid #575a5a;
+}
+
+section .form-cont .last-input .msg {
+  display: block;
+}
+
+section .form-cont .last-input .msg p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #8c9597;
+}
+
+section .form-cont .last-input .msg input {
+  border: 1px solid #8c9597;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 100%;
+  height: 200px;
+}
+
+section .form-cont .last-input .msg input:hover {
+  border: 1px solid #575a5a;
+}
+
+section .form-cont .last-input .msg button {
+  margin-top: 3%;
+  margin-left: 40%;
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=form.css.map */

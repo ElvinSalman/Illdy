@@ -1,0 +1,142 @@
+.links {
+  text-align: right;
+}
+
+.links .bar {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  header .header .head .links ul {
+    display: none;
+    background: white;
+    text-align: center;
+    margin-top: 2%;
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+    width: 100%;
+  }
+  header .header .head .links ul li {
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid silver;
+  }
+  header .header .head .links ul li :hover {
+    background: indigo;
+  }
+  header .header .head .links ul li a:hover p {
+    color: white;
+  }
+  header .header .head .links ul li a p {
+    padding: 15px;
+    height: 100%;
+    color: black;
+    margin-bottom: -0.2%;
+  }
+  header .header .head .links .bar {
+    display: block;
+    margin-left: 90%;
+    color: #fff;
+  }
+  header .header .head .links .bar:active {
+    color: gold;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header .header .head .links i {
+    margin-top: -15%;
+  }
+  header .header-content .hc-row .hc-1-col .hii {
+    font-size: 50px;
+  }
+  header .header-content .hc-row .hc-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .header-content .hc-row .hc-buttons button {
+    margin-top: 2%;
+  }
+  section .cont .grey-part .read {
+    display: block;
+    margin-bottom: 300%;
+  }
+  section .cont .grey-part .read .r {
+    margin-bottom: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .header .head .links i {
+    margin-top: -18%;
+  }
+  header .header .head .links #menu-box {
+    margin-left: -4%;
+  }
+  header .header-content .hc-row .hc-1-col .hii {
+    font-size: 30px;
+  }
+  header .header-content .hc-row .hc-buttons {
+    display: block;
+  }
+  header .header-content .hc-row .hc-buttons button {
+    margin-top: 2%;
+  }
+  section .section .sec-col-3 {
+    display: block;
+  }
+  section .section .sec-col-3 .first,
+  section .section .sec-col-3 .second,
+  section .section .sec-col-3 .third {
+    margin-left: 10%;
+  }
+  section .photos .img {
+    height: 200px;
+  }
+  section .photos .img a img {
+    height: 200px;
+  }
+  section .section .sec-col-3 {
+    margin-left: -7%;
+  }
+  section .grey-part .read {
+    height: 800px;
+  }
+  section .grey-part .read .read-row .r {
+    margin-left: 5%;
+    margin-bottom: 400px;
+  }
+  section .grey-part .read .read-row .r .r-t-m p {
+    margin-bottom: 20%;
+  }
+  section .form-cont {
+    width: 90%;
+  }
+  section .form-cont .address {
+    display: block;
+  }
+  section .form-cont .address .adr-col p {
+    border: none;
+  }
+  section .form-cont .address .adr-col span {
+    margin-left: 10%;
+  }
+  section .form-cont .address .support p {
+    border: none;
+  }
+  section .form-cont .address .support span {
+    margin-left: -10%;
+  }
+  section .form-cont .address .links {
+    margin-left: -15%;
+  }
+  section .form-cont .form-head .hr {
+    padding: 0;
+    margin-right: 5%;
+  }
+}
+/*# sourceMappingURL=media.css.map */

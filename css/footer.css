@@ -1,0 +1,74 @@
+footer {
+  background: #292825;
+  margin: 0;
+  padding: 0;
+  margin-top: 4%;
+  width: 100%;
+}
+
+footer .foot-cont .foot-row .f {
+  text-align-last: left;
+}
+
+footer .foot-cont .foot-row .f h5 {
+  margin-top: 10%;
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10%;
+}
+
+footer .foot-cont .foot-row .f ul li {
+  list-style: none;
+  margin-bottom: 3%;
+}
+
+footer .foot-cont .foot-row .f ul li ::before {
+  content: "\f105";
+  font-family: fontawesome;
+  color: #8c979e;
+  margin-right: 4%;
+}
+
+footer .foot-cont .foot-row .f ul li:hover a {
+  color: indigo;
+}
+
+footer .foot-cont .foot-row .f ul li:hover ::before {
+  color: indigo;
+}
+
+footer .foot-cont .foot-row .f ul li a {
+  color: #8c979e;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+footer .end-cont .end-row {
+  text-align: center;
+  background: #242320;
+}
+
+footer .end-cont .end-row .end-col {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+footer .end-cont .end-row .end-col p {
+  color: #8c9597;
+}
+
+footer .end-cont .end-row .end-col p a {
+  color: #8c9597;
+}
+
+footer .end-cont .end-row .end-col p span {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=footer.css.map */

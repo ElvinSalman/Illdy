@@ -1,0 +1,252 @@
+section {
+  padding: 0;
+  margin: 0;
+}
+
+section .cont {
+  padding: 0;
+}
+
+section .Projects {
+  background-image: url(https://colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+  background-size: 100%;
+  margin-top: 15%;
+  margin-left: 0;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+section .Projects .proj {
+  margin-top: 3%;
+  text-align: center;
+  color: #545454;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+section .Projects .sub-proj {
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  color: #8c9597;
+  font-family: lato;
+  font-weight: 400;
+}
+
+section .photos {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+section .photos .img {
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+
+section .photos .img a {
+  position: relative;
+}
+
+section .photos .img a:hover .opac {
+  opacity: 1;
+}
+
+section .photos .img a .opac {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  background: rgba(215, 226, 226, 0.438);
+  opacity: 0;
+}
+
+section .photos .img a img {
+  width: 100%;
+  height: 100%;
+}
+
+section .purple {
+  background-image: url(https://colorlib.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+}
+
+section .purple .testimon {
+  margin-top: 4%;
+  text-align: center;
+}
+
+section .purple .testimon p {
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #fff;
+}
+
+section .purple .photo-testimon {
+  text-align: center;
+  margin-top: 3%;
+}
+
+section .purple .photo-testimon img {
+  border-radius: 50%;
+}
+
+section .purple .photo-testimon .ram {
+  background: rebeccapurple;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 25px;
+}
+
+section .purple .photo-testimon .ram p {
+  color: #fff;
+  font-size: 18px;
+}
+
+section .purple .photo-testimon .name {
+  color: #fff;
+  font-size: 23px;
+  margin-top: 3%;
+}
+
+section .grey-part {
+  margin: 0;
+  background: #222f36;
+  width: 100%;
+  height: auto;
+}
+
+section .grey-part .head-txt {
+  text-align: center;
+}
+
+section .grey-part .head-txt p {
+  margin-top: 4%;
+  color: #fff;
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+section .grey-part .head-txt p span {
+  line-height: 26px;
+  font-size: 16px;
+  color: #8c9597;
+  font-family: lato;
+  font-weight: 400;
+}
+
+section .grey-part .btn-blog {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+section .grey-part .btn-blog .btn {
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+}
+
+section .grey-part .btn-blog .btn:hover {
+  background: indigo;
+}
+
+section .grey-part .read {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  height: 1000px;
+}
+
+section .grey-part .read .read-row {
+  width: 100%;
+}
+
+section .grey-part .read .read-row .r {
+  height: 250px;
+}
+
+section .grey-part .read .read-row .r .r-p {
+  width: 100%;
+  height: 100%;
+}
+
+section .grey-part .read .read-row .r .r-t {
+  text-align-last: left;
+  background: #fff;
+  padding: 20px 30px;
+  height: auto;
+}
+
+section .grey-part .read .read-row .r .r-t a {
+  text-decoration: none;
+}
+
+section .grey-part .read .read-row .r .r-t a h2 {
+  margin-bottom: 10%;
+  color: #5e5e5e;
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+section .grey-part .read .read-row .r .r-t a h2:hover {
+  color: #f1d204;
+}
+
+section .grey-part .read .read-row .r .r-t p {
+  line-height: 26px;
+  color: #8c9597;
+  font-size: 17px;
+  margin-bottom: 30%;
+  margin-top: 20%;
+}
+
+section .grey-part .read .read-row .r .r-t .read-link {
+  color: #f1d204;
+  font-size: 16px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+section .grey-part .read .read-row .r .r-t .read-link i {
+  color: gold;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-size: 15px;
+  margin-right: 3%;
+}
+
+section .grey-part .read .read-row .r .r-t .read-link:hover {
+  color: indigo;
+}
+
+section .grey-part .read .read-row .r .r-t .read-link:hover i {
+  color: indigo;
+}
+
+section .grey-part .read .read-row .r .r-t-m {
+  height: auto;
+}
+
+section .grey-part .read .read-row .r .r-t-m p {
+  margin-bottom: 40%;
+}
+
+section .grey-part .read .read-row .r .r-t-l p {
+  margin-bottom: 40%;
+}
+/*# sourceMappingURL=section.css.map */
